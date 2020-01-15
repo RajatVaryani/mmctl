@@ -1,6 +1,6 @@
 ## mmctl command create
 
-Create a custom slash command
+Create a custom slash command new
 
 ### Synopsis
 
