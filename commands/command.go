@@ -20,7 +20,7 @@ var CommandCmd = &cobra.Command{
 
 var CommandCreateCmd = &cobra.Command{
 	Use:     "create [team]",
-	Short:   "Create a custom slash command",
+	Short:   "Create a custom slash command new",
 	Long:    `Create a custom slash command for the specified team.`,
 	Args:    cobra.MinimumNArgs(1),
 	Example: `  command create myteam --title MyCommand --description "My Command Description" --trigger-word mycommand --url http://localhost:8000/my-slash-handler --creator myusername --response-username my-bot-username --icon http://localhost:8000/my-slash-handler-bot-icon.png --autocomplete --post`,
