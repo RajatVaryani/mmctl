@@ -13,7 +13,7 @@ import (
 )
 
 var ChannelCmd = &cobra.Command{
-	Use:   "channel",
+	Use:   "channell",
 	Short: "Management of channels",
 }
 
